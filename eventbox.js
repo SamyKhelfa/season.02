@@ -11,6 +11,7 @@ function empty(){
     emitter.emit('hi')
 }
 
+// Correction de Dylan
 function withArgs(names){
     const emitter = new EventEmitter()
     for (let i = 0; i < names.length; i++){
